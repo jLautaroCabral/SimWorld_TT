@@ -6,7 +6,7 @@ namespace UnityEngine.VFX.Utility
     [ExecuteAlways]
     [RequireComponent(typeof(VisualEffect))]
     class VFXOutputEventCinemachineCameraShake : VFXOutputEventAbstractHandler
-	{
+    {
         public override bool canExecuteInEditor => true;
 
         public enum Space
