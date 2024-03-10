@@ -67,6 +67,7 @@ namespace HappyHarvest
                 output.x += Mathf.PerlinNoise(uv.x * freq * (i + 1), 0);
                 output.y += Mathf.PerlinNoise(uv.y * freq * (i + 1), 0);
                 output.z += Mathf.PerlinNoise(uv.z * freq * (i + 1), 0);
+            
             }
 
             return output;
