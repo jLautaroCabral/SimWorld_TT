@@ -5,7 +5,7 @@ namespace UnityEngine.VFX.Utility
     [ExecuteAlways]
     [RequireComponent(typeof(VisualEffect))]
     class VFXOutputEventPrefabSpawn : VFXOutputEventAbstractHandler
-	{
+    {
         public override bool canExecuteInEditor => true;
         public uint instanceCount => m_InstanceCount;
         public GameObject prefabToSpawn => m_PrefabToSpawn;
@@ -38,9 +38,9 @@ namespace UnityEngine.VFX.Utility
         GameObject[] m_Instances = k_EmptyGameObjects;
         float[] m_TimesToLive = k_EmptyTimeToLive;
 
-        protected void OnDisable()
+        protected override void OnDisable()
         {
-            
+            base.OnDisable();
             foreach (var instance in m_Instances)
                 instance.SetActive(false);
         }
@@ -178,10 +178,7 @@ namespace UnityEngine.VFX.Utility
             } //Else, can't find an instance available, ignoring.
         }
 
-		private bool executeInEditor;
-		private VisualEffect m_VisualEffect;
-
-		void Update()
+        void Update()
         {
             if (Application.isPlaying || (executeInEditor && canExecuteInEditor))
             {
