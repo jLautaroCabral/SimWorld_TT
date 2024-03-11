@@ -47,6 +47,7 @@ namespace SimWorld
 		{
 			if (Input.GetKeyUp(KeyCode.Escape))
 			{
+				Debug.Log("Application quit called");
 				Application.Quit();
 			}
 		}

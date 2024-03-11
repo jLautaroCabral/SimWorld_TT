@@ -12,7 +12,7 @@ namespace SimWorld
 		private void Start()
 		{
 			Application.targetFrameRate = 60;
-			Invoke(nameof(LoadMainMenu), 3f);
+			Invoke(nameof(LoadMainMenu), 1f);
 		}
 
 		private void LoadMainMenu()
