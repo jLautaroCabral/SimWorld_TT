@@ -1,7 +1,7 @@
 # SimWorld_TT
 
 ## The systems
-As the technical proof is incomplete there is more to talk about the thought process rather than the systems themselves.
+As the technical test is incomplete there is more to talk about the thought process rather than the systems themselves.
 Anyway I will explain the initial flow and what the systems were intended for even though the systems are incomplete. Just before that, I will mention the third party packages that you should not pay too much attention to as I hardly used them.
 ### Third party assets
 Each selected folder in the image is part of third party asset packs
