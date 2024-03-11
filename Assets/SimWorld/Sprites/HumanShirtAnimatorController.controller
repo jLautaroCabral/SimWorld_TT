@@ -85,7 +85,7 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 6f743a0b2ccceb241ab84ed42dbb952b, type: 2}
+    m_Motion: {fileID: 7400000, guid: 1055ecf292d78d240a6aa9d10b15de51, type: 2}
     m_Threshold: 0
     m_Position: {x: 1, y: -1}
     m_TimeScale: 1
@@ -93,7 +93,7 @@ BlendTree:
     m_DirectBlendParameter: X
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 8b15454b1755cb84d9437fab3fb9922d, type: 2}
+    m_Motion: {fileID: 7400000, guid: 407ff73d48a5e794bb37f41f26f9f518, type: 2}
     m_Threshold: 0.33333334
     m_Position: {x: -1, y: -1}
     m_TimeScale: 1
@@ -101,7 +101,7 @@ BlendTree:
     m_DirectBlendParameter: X
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 58fa9ea95b8d263449c87a1a358626ef, type: 2}
+    m_Motion: {fileID: 7400000, guid: 4a0bf27273c65bb4cadfff2a8d631118, type: 2}
     m_Threshold: 0.6666667
     m_Position: {x: -1, y: 1}
     m_TimeScale: 1
@@ -109,7 +109,7 @@ BlendTree:
     m_DirectBlendParameter: X
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: bdb202c922804eb44bfdda69c4b3bcbb, type: 2}
+    m_Motion: {fileID: 7400000, guid: 054481a67cd1c9c4fb3cd07adffcbcd3, type: 2}
     m_Threshold: 1
     m_Position: {x: 1, y: 1}
     m_TimeScale: 1
@@ -132,7 +132,7 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: ae6193a105c3e0648afbfce77bbca331, type: 2}
+    m_Motion: {fileID: 7400000, guid: 814381472be89e3438c835a85139bd47, type: 2}
     m_Threshold: 0
     m_Position: {x: 1, y: -1}
     m_TimeScale: 1
@@ -140,7 +140,7 @@ BlendTree:
     m_DirectBlendParameter: X
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 43189d1c48bf83d4cbd65d27c5334e04, type: 2}
+    m_Motion: {fileID: 7400000, guid: e485b3163ad6cb243a6cf4b6b208b70b, type: 2}
     m_Threshold: 0.33333334
     m_Position: {x: -1, y: -1}
     m_TimeScale: 1
@@ -148,7 +148,7 @@ BlendTree:
     m_DirectBlendParameter: X
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: e75f7d1782d259a4cb4f26264be4a3bf, type: 2}
+    m_Motion: {fileID: 7400000, guid: 3bfbaf0540ff11f4eb668d1fdb8d1589, type: 2}
     m_Threshold: 0.6666667
     m_Position: {x: -1, y: 1}
     m_TimeScale: 1
@@ -156,7 +156,7 @@ BlendTree:
     m_DirectBlendParameter: X
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 38fae38ec69b9d0468918713c11f0159, type: 2}
+    m_Motion: {fileID: 7400000, guid: abbed6f1a2d732547bb0c1099307a67a, type: 2}
     m_Threshold: 1
     m_Position: {x: 1, y: 1}
     m_TimeScale: 1
@@ -301,7 +301,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Walk Blend Tree
+  m_Name: Shirt Walk Blend Tree
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -351,7 +351,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HumanAnimatorController 1
+  m_Name: HumanShirtAnimatorController
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: X
@@ -359,55 +359,55 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Y
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Attack
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: ChargedAttack
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Die
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Dmg
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Idle
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Jump
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Walk
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -453,7 +453,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Idle Blend Tree
+  m_Name: Shirt Idle Blend Tree
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []

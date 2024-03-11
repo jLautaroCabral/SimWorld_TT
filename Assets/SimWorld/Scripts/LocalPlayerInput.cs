@@ -44,7 +44,7 @@ namespace SimWorld
 				moveDirection.Normalize();
 			}
 
-			_renderInput.MoveDirection = moveDirection * Time.deltaTime;
+			_renderInput.MoveDirection = moveDirection;
 		}
 	}
 }
