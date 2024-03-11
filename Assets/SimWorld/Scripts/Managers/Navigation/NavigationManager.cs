@@ -42,6 +42,15 @@ namespace SimWorld
 			Debug.Log("Navigation Manager initialization successfully");
 		}
 
+		// TODO: Temporal
+		private void Update()
+		{
+			if (Input.GetKeyUp(KeyCode.Escape))
+			{
+				Application.Quit();
+			}
+		}
+
 		public void ReloadCurrentScene()
 		{
 			NavigateToScene(SceneManager.GetActiveScene().name);
