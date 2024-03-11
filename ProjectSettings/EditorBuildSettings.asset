@@ -6,21 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/HappyHarvest/Scenes/MainMenu.unity
-    guid: 4b160fdf6533d5c469973189e95deede
-  - enabled: 1
-    path: Assets/HappyHarvest/Scenes/Loader.unity
-    guid: 0c2d1b63d68b6084db7a03527005683a
-  - enabled: 1
-    path: Assets/HappyHarvest/Scenes/Farm_Outdoor.unity
-    guid: db7f147af7c21465ca337bc126944569
-  - enabled: 1
-    path: Assets/HappyHarvest/Scenes/House_Interior.unity
-    guid: 5eae6d8f741dc624395c4cd2e57cab18
-  - enabled: 1
-    path: Assets/SimWorld/Scenes/2.GameplayScene.unity
-    guid: 38a15da54504b054bb685da5c36c0b44
+    path: Assets/SimWorld/Scenes/0.GameLoader.unity
+    guid: dc59dc8df17c9614faecca55525488a0
   - enabled: 1
     path: Assets/SimWorld/Scenes/1.MainMenu.unity
     guid: 486f7d9335e03bd4b96a21affae22c52
+  - enabled: 1
+    path: Assets/SimWorld/Scenes/2.GameplayScene.unity
+    guid: 38a15da54504b054bb685da5c36c0b44
   m_configObjects: {}
