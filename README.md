@@ -32,8 +32,9 @@ Some scripts of the project finally did not have a very important use, and some 
 
 ![image](https://github.com/jLautaroCabral/SimWorld_TT/assets/58992244/86aecd53-4f8e-48be-8106-51070000b19e)
 
+The rest of the scripts in the project are very simple and the name of their classes just explains what the scripts do.
 
-### Thought process
+## Thought process
 
 At the beginning of the project, considering the short time available, I preferred not to "reinvent the wheel" in terms of creating a game similar to Stradew Valley. So I started looking for resources that I could reuse for the game I was asked to create. I found the Happy Harvest Unity sample project and it seemed perfect, the problem was that the minimum version of Unity supported by Happy Harvest is 2022.x, and you explicitly asked to use Unity 2021.3.21.
 Anyway the example project was too useful so I imported it anyway to Unity 2021 and fixed the compile errors I got, since the project was prepared for Unity 2022. After the fixes everything worked fine except for one thing, the character animation and its prefab.
@@ -65,3 +66,11 @@ This way I was able to save a lot of work related to the animations, without com
 ![image](https://github.com/jLautaroCabral/SimWorld_TT/assets/58992244/bd02f8c7-a836-4a54-84ea-065e08e2fcde)
 
 During the rest of the development I had no major problems, the next steps were to add Photon since I was planning to make the game online. Besides adding logic related to the UI, game flow and managers.
+
+
+## Personal assessment
+
+Since I didn't complete the game on time organization is one of the things I should mention in my personal assessment, although there isn't much to mention about it.
+I thought that this weekend I would have more free time and could focus only on the technical test but in the end that was not the case for reasons outside of this work. So I should have chosen a better day to start.
+
+On the technical side, I think the choice to use frame-based animation instead of bones was not entirely correct, maybe it would work in this little technical test but it's certainly not what I would use in a real game, it's just not something that scales well over time. Bone-based animation would be the best option.
