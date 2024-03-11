@@ -8,6 +8,8 @@ namespace SimWorld
     {
 		[SerializeField]
 		private NavigationManager navigationManagerImplementation;
+		[SerializeField]
+		private CameraManager cameraManagerImplementation;
 
 		private void Awake()
 		{
@@ -17,10 +19,13 @@ namespace SimWorld
 		private void InitManagers()
 		{
 			INavigationManager navigationManager = navigationManagerImplementation;
+			ICameraManager cameraManager = cameraManagerImplementation;
 			
 			navigationManager.InitializeManager();
-			
+			cameraManager.InitializeManager();
+
 			Locator.Register<INavigationManager>(navigationManager);
+			Locator.Register<ICameraManager>(cameraManager);
 
 			DontDestroyOnLoad(gameObject); // Just because we use this object as the managers parent
 		}
